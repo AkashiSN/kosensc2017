@@ -1,28 +1,46 @@
 #!/usr/bin/env python3
 from struct import *
+import os
 
-at = open("OreNoFS_AT.bin","rb")
-ar_list = [] 
-for i in range(16384//2):
-    bin = at.read(2)
-    ar_list.append(unpack('>H',bin)[0])
+ore = (2048*512, 59392*512) # (starr,length) cut gpt
+cl_size = 4096
+at_size = cl_size * 4 # AllocationTable
+de_size = 32 # Directory entory
 
-at.close()
+with open("raw.dmg","rb") as raw:
+    raw.seek(ore[0])
+    with open("OreNoFS.bin","wb") as f:
+        f.write(raw.read(ore[1]))
 
-cl_list = []
-for ar in ar_list:
-    if 1 < ar < 65527:
-        cl_list.append(ar)
-cl_list = sorted(cl_list)
-print(cl_list)
+with open("OreNoFS.bin","rb") as at:
+    with open("at.bin","wb") as f:
+        f.write(at.read(at_size))
+    with open("de.bin","wb") as f:
+        f.write(at.read(de_size))
 
-dt = open("OreNoFS_DT.bin","rb")
-for i in range(30408704//4096-4+1):
-    open("output/{}.bin".format(i+4),"wb").write(dt.read(4096))
+with open("de.bin","rb") as de:
+    de.seek(1)
+    print("file_name: {}".format(de.read(8)))
+    de.seek(12)
+    file_size = unpack('<l',de.read(4))[0]
+    print("file_size: {} byte".format(file_size))
+    offset_of_cluster = unpack('<H',de.read(2))[0]
+    print("offset_of_cluster: {} cluster".format(offset_of_cluster))
 
-# data = b''
-# for cl in cl_list:
-#     dt.seek(cl)
-#     data += dt.read(4096)
+with open("at.bin","rb") as at:
+    at_list = []
+    for i in range(at_size // 2): # 2 byteごとなので
+        bin = at.read(2)
+        at_list.append(unpack('<H',bin)[0])
 
-# f = open("output.zip","wb").write(data)
+with open("OreNoFS.bin","rb") as f:
+    os.mkdir("cluster")
+    for i in range(ore[1] // cl_size):
+        open("cluster/{}.bin".format(i),"wb").write(f.read(cl_size))
+
+with open("result.zip","ab") as r: # 追記モード
+    cluster = offset_of_cluster
+    for i in range(len(at_list)):
+        if 1 < cluster < 65527:
+            r.write(open("cluster/{}.bin".format(cluster),"rb").read())
+            cluster = at_list[cluster]
