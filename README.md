@@ -1,7 +1,6 @@
 # kosensc2017
 
 高専セキュリティコンテスト2017のWriteUpです
-ます__
 
 **解答者が[@Akashi_SN](https://twitter.com/Akashi_SN)以外の問題のWriteUpはコンテスト終了後に解き直してるものです**
 
@@ -22,7 +21,7 @@
 
 
 |*|Category|Title|Point|Status|WriteUp|Solver|
-|-|:------:|:---:|:---:|:----:|:-----:|------|
+|-|:------:|:---:|:---:|:----:|:-----:|:----:|
 |0|Sample|サンプル|100|✓|[✓](q0/q0.md)|[@yfba_](https://twitter.com/yfba_)|
 |1|Binary|フラグを答えろ|100|✓|[✓](q1/q2.md)|[@sei0o](https://twitter.com/sei0o)|
 |2|Binary|ファイル名を探せ|100|✓|[✓](q2/q2.md)|[@Snow_Poijio](https://twitter.com/Snow_Poijio)|
@@ -33,6 +32,13 @@
 |7|Crypto|簡単な符号化|100|✓|[✓](q7/q7.md)|[@Akashi_SN](https://twitter.com/Akashi_SN)|
 |8|Crypto|Weak RSA1|200|✓|[✓](q8/q8.md)|[@Snow_Poijio](https://twitter.com/Snow_Poijio)|
 |9|Crypto|Weak RSA2|300|✓|[✓](q9/q9.md)|[@yfba_](https://twitter.com/yfba_)|
+|10|Crypto|Homomorphic Encryption|400||[✓](q10/q10.md)|-|
+|11|Misc|君(脆弱性)の名は|100|✓|[✓](q11/q11.md)|[@sei0o](https://twitter.com/sei0o)|
+|12|Misc|便利なプロトコル|100|✓|[✓](q12/q12.md)|[@Snow_Poijio](https://twitter.com/Snow_Poijio)|
+|13|Misc|諜報機関は基本？|100|✓|[✓](q13/q13.md)|[@sei0o](https://twitter.com/sei0o)|
+|14|Misc|素数を数えろ|100|✓|[✓](q14/q14.md)|[@yfba_](https://twitter.com/yfba_)|
+|15|Network|寝坊気味のコンピュータ|100|✓|[✓](q15/q15.md)|[@Akashi_SN](https://twitter.com/Akashi_SN)|
+|16|Network|ログインしたいんだ！|100|✓|[✓](q16/q16.md)|[@Akashi_SN](https://twitter.com/Akashi_SN)|
 
 
 
