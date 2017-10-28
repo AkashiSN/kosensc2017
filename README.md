@@ -32,7 +32,7 @@
 |7|Crypto|簡単な符号化|100|✓|[✓](q7/q7.md)|[@Akashi_SN](https://twitter.com/Akashi_SN)|
 |8|Crypto|Weak RSA1|200|✓|[✓](q8/q8.md)|[@Snow_Poijio](https://twitter.com/Snow_Poijio)|
 |9|Crypto|Weak RSA2|300|✓|[✓](q9/q9.md)|[@yfba_](https://twitter.com/yfba_)|
-|10|Crypto|Homomorphic Encryption|400||[✓](q10/q10.md)|-|
+|10|Crypto|Homomorphic Encryption|400|||-|
 |11|Misc|君(脆弱性)の名は|100|✓|[✓](q11/q11.md)|[@sei0o](https://twitter.com/sei0o)|
 |12|Misc|便利なプロトコル|100|✓|[✓](q12/q12.md)|[@Snow_Poijio](https://twitter.com/Snow_Poijio)|
 |13|Misc|諜報機関は基本？|100|✓|[✓](q13/q13.md)|[@sei0o](https://twitter.com/sei0o)|
@@ -44,7 +44,7 @@
 |19|Web|ログインせよ|100|✓|[✓](q19/q19.md)|[@Snow_Poijio](https://twitter.com/Snow_Poijio)|
 |20|Web|Web1|200|✓|[✓](q20/q20.md)|[@sei0o](https://twitter.com/sei0o)|
 |21|Web|Web2|200|✓|[✓](q21/q21.md)|[@sei0o](https://twitter.com/sei0o)|
-|22|KoH|KoH Typing|30(100)||[✓](q22/q22.md)|-|
+|22|KoH|KoH Typing|30(100)|||-|
 |23|KoH|通信を解析しろ|30(100)|✓|[✓](q23/q23.md)|([@Akashi_SN](https://twitter.com/Akashi_SN))|
 
 
