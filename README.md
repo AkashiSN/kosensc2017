@@ -1,8 +1,9 @@
 # kosensc2017
 
 高専セキュリティコンテスト2017のWriteUpです
+ます__
 
-__コンテスト終了後に[@Akashi_SN](https://twitter.com/Akashi_SN)がとき直した問題もあります__
+**解答者が[@Akashi_SN](https://twitter.com/Akashi_SN)以外の問題のWriteUpはコンテスト終了後に解き直してるものです**
 
 チーム[BiPhone](https://ctftime.org/team/21255)として[@sei0o](https://twitter.com/sei0o)、[@yfba_](https://twitter.com/yfba_)、[@Snow_Poijio](https://twitter.com/Snow_Poijio)と出場しました。
 
@@ -31,6 +32,7 @@ __コンテスト終了後に[@Akashi_SN](https://twitter.com/Akashi_SN)がと�
 |6|Crypto|解凍して解答せよ|100|✓|[✓](q6/q6.md)|[@Snow_Poijio](https://twitter.com/Snow_Poijio)|
 |7|Crypto|簡単な符号化|100|✓|[✓](q7/q7.md)|[@Akashi_SN](https://twitter.com/Akashi_SN)|
 |8|Crypto|Weak RSA1|200|✓|[✓](q8/q8.md)|[@Snow_Poijio](https://twitter.com/Snow_Poijio)|
+|9|Crypto|Weak RSA2|300|✓|[✓](q9/q9.md)|[@yfba_](https://twitter.com/yfba_)|
 
 
 
