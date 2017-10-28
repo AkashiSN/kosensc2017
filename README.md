@@ -2,7 +2,7 @@
 
 高専セキュリティコンテスト2017のWriteUpです
 
-**解答者が[@Akashi_SN](https://twitter.com/Akashi_SN)以外の問題のWriteUpはコンテスト終了後に解き直してるものです**
+__解答者が[@Akashi_SN](https://twitter.com/Akashi_SN)以外の問題のWriteUpはコンテスト終了後に解き直してるものです__
 
 チーム[BiPhone](https://ctftime.org/team/21255)として[@sei0o](https://twitter.com/sei0o)、[@yfba_](https://twitter.com/yfba_)、[@Snow_Poijio](https://twitter.com/Snow_Poijio)と出場しました。
 
