@@ -20,18 +20,18 @@ __解答者が[@Akashi_SN](https://twitter.com/Akashi_SN)以外の問題のWrite
 ![problem](problem.jpg)
 
 
-|*|Category|Title|Point(Bonus)|Status|WriteUp|Solver(Bonus)|
+|Id|Category|Title|Point(Bonus)|Status|WriteUp|Solver(Bonus)|
 |-|:------:|:---:|:---:|:----:|:-----:|:----:|
-|0|Sample|サンプル|100|✓|[✓](q0/q0.md)|[@yfba_](https://twitter.com/yfba_)|
-|1|Binary|フラグを答えろ|100|✓|[✓](q1/q2.md)|[@sei0o](https://twitter.com/sei0o)|
-|2|Binary|ファイル名を探せ|100|✓|[✓](q2/q2.md)|[@Snow_Poijio](https://twitter.com/Snow_Poijio)|
-|3|Binary|ボスを倒せ|200|✓|[✓](q3/q3.md)|[@yfba_](https://twitter.com/yfba_)|
-|4|Binary|OreNoFS|500|✓|[✓](q4/q4.md)|[@sei0o](https://twitter.com/sei0o)|
-|5|Crypto|簡単な符号化2|100|✓|[✓](q5/q5.md)|[@sei0o](https://twitter.com/sei0o)|
-|6|Crypto|解凍して解答せよ|100|✓|[✓](q6/q6.md)|[@Snow_Poijio](https://twitter.com/Snow_Poijio)|
-|7|Crypto|簡単な符号化|100|✓|[✓](q7/q7.md)|[@Akashi_SN](https://twitter.com/Akashi_SN)|
-|8|Crypto|Weak RSA1|200|✓|[✓](q8/q8.md)|[@Snow_Poijio](https://twitter.com/Snow_Poijio)|
-|9|Crypto|Weak RSA2|300|✓|[✓](q9/q9.md)|[@yfba_](https://twitter.com/yfba_)|
+|00|Sample|サンプル|100|✓|[✓](q0/q0.md)|[@yfba_](https://twitter.com/yfba_)|
+|01|Binary|フラグを答えろ|100|✓|[✓](q1/q2.md)|[@sei0o](https://twitter.com/sei0o)|
+|02|Binary|ファイル名を探せ|100|✓|[✓](q2/q2.md)|[@Snow_Poijio](https://twitter.com/Snow_Poijio)|
+|03|Binary|ボスを倒せ|200|✓|[✓](q3/q3.md)|[@yfba_](https://twitter.com/yfba_)|
+|04|Binary|OreNoFS|500|✓|[✓](q4/q4.md)|[@sei0o](https://twitter.com/sei0o)|
+|05|Crypto|簡単な符号化2|100|✓|[✓](q5/q5.md)|[@sei0o](https://twitter.com/sei0o)|
+|06|Crypto|解凍して解答せよ|100|✓|[✓](q6/q6.md)|[@Snow_Poijio](https://twitter.com/Snow_Poijio)|
+|07|Crypto|簡単な符号化|100|✓|[✓](q7/q7.md)|[@Akashi_SN](https://twitter.com/Akashi_SN)|
+|08|Crypto|Weak RSA1|200|✓|[✓](q8/q8.md)|[@Snow_Poijio](https://twitter.com/Snow_Poijio)|
+|09|Crypto|Weak RSA2|300|✓|[✓](q9/q9.md)|[@yfba_](https://twitter.com/yfba_)|
 |10|Crypto|Homomorphic Encryption|400|||-|
 |11|Misc|君(脆弱性)の名は|100|✓|[✓](q11/q11.md)|[@sei0o](https://twitter.com/sei0o)|
 |12|Misc|便利なプロトコル|100|✓|[✓](q12/q12.md)|[@Snow_Poijio](https://twitter.com/Snow_Poijio)|
